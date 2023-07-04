@@ -1,0 +1,111 @@
+/*Variables*/
+:root {
+    --color1: #F22F46;
+    --color2: #0D122B;
+    --color3: #FFFFFF;
+    --color4: #B1ACA0;
+    --color5: #DBDDD7;  
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--color5) ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+/* Header*/
+
+.header{
+    width: 80%;
+    height: 3em;
+    background-color: var(--color3);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* nav*/
+.nav{
+    width: 80%;
+    height: 3em;
+    background-color: var(--color3);
+
+}
+
+.barnav{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--color2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+}
+
+.menu:hover{
+    color: lighten(var(--color2), 50%);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+/* image carousel section*/
+
+.Image-carousel{
+    width: 80%;
+    height: calc(50vh - 7em);
+    background-color: var(--color2);
+
+}
+
+/* description text*/
+.Article-text{
+    width: 80%;
+    height: 50vh;
+    background-color: var(--color4);
+
+}
+
+/* Footer*/
+
+.footer{
+    width: 80%;
+    height: 4.5em;
+    background-color: var(--color2);
+}
