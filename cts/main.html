@@ -7,20 +7,21 @@
     <title>Meet The Team</title>
 
     <link rel="stylesheet" type="text/css" href="CSS/main.css" media="screen" />
+    <script src="./JS/main.js"></script>
 </head>
 
 <body>
 
     <header class="header">
-      <img src="#" alt=" twilio-logo" class="logo">
+      <img src="/CSS/resources/logo_imagen_twilio.jpg" alt=" twilio-logo" class="logo">
 
     </header>
 
     <nav class="nav">
       <ul class="barnav">
-        <li class="menu"> Americas</li>
-        <li class="menu"> Apac</li>
-        <li class="menu"> Emea</li>
+        <li class="menu" id="americas"> <a href="#">Americas</a> </li>
+        <li class="menu" id="apac">     <a href="#">APac</a> </li>
+        <li class="menu" id="emea">     <a href="#">EMEA</a> </li>
         
       </ul>
 
@@ -30,15 +31,19 @@
       <div class="slider-wrapper">
 
         <div class="slider">
-          <img id="slide-1" src="CSS/resources/Americas/Cat1.jpg" alt="TSE-1">
-          <img id="slide-2" src="CSS/resources/Americas/Cat2.jpg" alt="TSE-2">
-          <img id="slide-3" src="CSS/resources/Americas/Cat3.jpg" alt="TSE-3">
+          <span id="image-span-1"></span>
+          <span id="image-span-2"></span>
+          <span id="image-span-3"></span>
+          
+          
+                   
         </div>
 
         <div class="slider-nav">
           <a href="#slide-1"></a>
           <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
+          <a href='#slide-3' id="slide-3"></a>
+          
   
         </div>
       </div>
@@ -53,3 +58,8 @@
     <footer class="footer">
 
     </footer>
+
+
+
+</body>
+</html>
